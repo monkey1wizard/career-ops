@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.17.1](https://github.com/career-ops-hq/career-ops/compare/web-v0.17.0...web-v0.17.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **web:** undo the last CV Studio edit ([#6183](https://github.com/career-ops-hq/career-ops/issues/6183)) ([dc5e25e](https://github.com/career-ops-hq/career-ops/commit/dc5e25e384c1a24627a5972b0d11e642f9bdd610))
+
+
+### Performance Improvements
+
+* **web:** mount only the pipeline rows on screen ([#6093](https://github.com/career-ops-hq/career-ops/issues/6093)) ([aa0e77f](https://github.com/career-ops-hq/career-ops/commit/aa0e77fb909b8b0326318dcd9f8cee3f2ff471e7))
+
 ## [0.17.0](https://github.com/career-ops-hq/career-ops/compare/web-v0.16.0...web-v0.17.0) (2026-11-05)
 
 

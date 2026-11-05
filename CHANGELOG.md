@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.39.1](https://github.com/career-ops-hq/career-ops/compare/career-ops-v1.39.0...career-ops-v1.39.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **batch-evaluate-gemini:** read --limit N and --help instead of running every offer ([#6333](https://github.com/career-ops-hq/career-ops/issues/6333)) ([b5de065](https://github.com/career-ops-hq/career-ops/commit/b5de065eefd1df64a1165b7a1998367de012b017))
+* **batch:** read batch-state.tsv from the checkout in merge-tracker and reserve-report-num ([#6449](https://github.com/career-ops-hq/career-ops/issues/6449)) ([beded4a](https://github.com/career-ops-hq/career-ops/commit/beded4a7828f37afdf127bb63265edb5fcb8fefd))
+* **fetch-jd:** exit 1 on a miss instead of aborting on Windows ([#6462](https://github.com/career-ops-hq/career-ops/issues/6462)) ([744666a](https://github.com/career-ops-hq/career-ops/commit/744666a2f010cb10f430d70865180bc7781ddabf))
+* **jd-years:** stop a list item reading as a required heading ([#6463](https://github.com/career-ops-hq/career-ops/issues/6463)) ([05ceb99](https://github.com/career-ops-hq/career-ops/commit/05ceb992d25c7870fc89823c88e75fcb7464b135))
+* **tracker:** stop a placeholder or a URL spelling hiding which posting a row is ([#6390](https://github.com/career-ops-hq/career-ops/issues/6390)) ([abe49bb](https://github.com/career-ops-hq/career-ops/commit/abe49bbbbbc210d4135a9b86cd329060fc1395e1))
+
+
+### Performance Improvements
+
+* **scan:** fetch up to 32 companies, 10 per host ([#6133](https://github.com/career-ops-hq/career-ops/issues/6133)) ([975abe0](https://github.com/career-ops-hq/career-ops/commit/975abe0e393bdb60ac4bd0eb211b180070a88aee))
+
 ## [1.39.0](https://github.com/career-ops-hq/career-ops/compare/career-ops-v1.38.0...career-ops-v1.39.0) (2026-11-05)
 
 
